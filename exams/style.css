@@ -1,0 +1,36 @@
+.hero {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200');
+    background-size: cover;
+    background-position: center;
+    color: rgb(240, 236, 236);
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.service-card {
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement {
+    background: #f0fbff;
+}
+
+footer {
+    background: #111;
+    color: white;
+}
+
+.social i {
+    font-size: 20px;
+    margin: 0 8px;
+    color: white;
+}
